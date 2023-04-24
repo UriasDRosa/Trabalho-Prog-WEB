@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prog WEB</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+    >
+      <a
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        href="#"
+        >Trabalho com AJAX</a
+      >
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contact</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+      </ul>
+    </header>
+    <main>
+      <h2>Tabela de Recursos</h2>
+      <button
+        onclick="makeRequest()"
+        class="btn btn-light rounded-pill px-3"
+        type="button"
+      >
+        Gerar Tabela
+      </button>
+      <div class="div-tabela">
+        <table id="table">
+          <thead>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Origem</th>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <hr />
+      <p>Urias da Rosa &copy; 2023</p>
+    </footer>
+  </body>
+  <script src="main.js" async defer></script>
+</html>

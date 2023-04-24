@@ -1,0 +1,30 @@
+{
+    "resources": [
+      {
+        "id": 1,
+        "name": "Rice",
+        "source": "Japan"
+      },
+      {
+        "id": 2,
+        "name": "Cheese",
+        "source": "Switzerland"
+      },
+      {
+        "id": 3,
+        "name": "Beef",
+        "source": "Brazil"
+      },
+      {
+        "id": 4,
+        "name": "Wheat",
+        "Origem": "EUA"
+      },
+      {
+        "id": 5,
+        "name": "There",
+        "source": "Canada"
+      }
+    ]
+  }
+  

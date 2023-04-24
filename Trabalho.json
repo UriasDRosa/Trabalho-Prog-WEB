@@ -1,0 +1,114 @@
+{
+  "uuid": "c9d9b4c1-614a-408e-ac27-1d6dd130555e",
+  "lastMigration": 27,
+  "name": "Trabalho",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 8080,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "3a87fd80-acdc-4aa7-accb-89703577c87a",
+      "type": "http",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "resources",
+      "responses": [
+        {
+          "uuid": "9e079811-1c4b-40e3-9939-e269bc432f9e",
+          "body": "{\r\n  \"resources\": [\r\n    {\r\n      \"id\": 1,\r\n      \"name\": \"Rice\",\r\n      \"source\": \"Japan\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"name\": \"Cheese\",\r\n      \"source\": \"Switzerland\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"name\": \"Beef\",\r\n      \"source\": \"Brazil\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"name\": \"Wheat\",\r\n      \"source\": \"EUA\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"name\": \"There\",\r\n      \"source\": \"Canada\"\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "0c7ba2da-5213-46fe-a331-e848fb442ecd",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "resources",
+      "responses": [
+        {
+          "uuid": "66c8967a-f456-4131-929f-1c2e241c2282",
+          "body": "{\r\n  \"resources\": [\r\n    {\r\n      \"id\": 1,\r\n      \"name\": \"Rice\",\r\n      \"source\": \"Japan\"\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"name\": \"Cheese\",\r\n      \"source\": \"Switzerland\"\r\n    },\r\n    {\r\n      \"id\": 3,\r\n      \"name\": \"Beef\",\r\n      \"source\": \"Brazil\"\r\n    },\r\n    {\r\n      \"id\": 4,\r\n      \"name\": \"Wheat\",\r\n      \"source\": \"EUA\"\r\n    },\r\n    {\r\n      \"id\": 5,\r\n      \"name\": \"There\",\r\n      \"source\": \"Canada\"\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "3a87fd80-acdc-4aa7-accb-89703577c87a"
+    },
+    {
+      "type": "route",
+      "uuid": "0c7ba2da-5213-46fe-a331-e848fb442ecd"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
