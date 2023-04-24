@@ -4,5 +4,12 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.0-alpha3"
-  }
+  },
+  "name": "trabalho-prog-web",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
